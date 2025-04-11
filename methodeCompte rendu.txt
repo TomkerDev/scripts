@@ -1,0 +1,15 @@
+/*** Plan de rédaction du compte rendu TP***/
+
+
+Premiere partie: Analyse fonctionnelle
+	rappel du sujet(reformulation pour plus de clarté)
+	proposition d'une Analyse descendante du problème
+	decomposition fonctionnelle( graphique ou esquise)
+Deuxième partie: réalisation des différentes actions paramètrées( plus simple au plus complexe)
+	Pour chacune des actions paramètrées
+		analyse
+		Algorithme
+		code de la fonction: commentaire, documentation
+		Tests:ce qu'il faut controler, procedure de test
+Troisième partie: Intégration
+	

@@ -1,0 +1,11 @@
+LOAD DATA
+INFILE 'commandes.csv'
+REPLACE
+INTO TABLE Commandes
+FIELDS TERMINATED BY ","
+OPTIONALLY ENCLOSED BY '"'
+(
+    id_commande INTEGER EXTERNAL,
+    id_client INTEGER EXTERNAL,
+    date_commande DATE "YYYY-MM-DD HH24:MI:SS"
+)

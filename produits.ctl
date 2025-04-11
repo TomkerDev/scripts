@@ -1,0 +1,12 @@
+LOAD DATA
+INFILE 'produits.csv'
+REPLACE
+INTO TABLE Produits
+FIELDS TERMINATED BY ","
+OPTIONALLY ENCLOSED BY '"'
+(
+    id_produit INTEGER EXTERNAL,
+    nom CHAR,
+    description CHAR,
+    prix FLOAT EXTERNAL
+)
