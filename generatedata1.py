@@ -90,11 +90,11 @@ def enregistrer_lignes_commande_csv(lignes_commande, nom_fichier):
             ecrivain_csv.writerow(ligne)
 
 # Exemple d'utilisation
-clients = generer_clients(10)
-produits = generer_produits(20)
-commandes = generer_commandes(15, clients)
-lignes_commande = generer_lignes_commande(30, commandes, produits)
-
+clients = generer_clients(10000)
+produits = generer_produits(2000)
+commandes = generer_commandes(50000, clients)
+lignes_commande = generer_lignes_commande(200000, commandes, produits)
+print("Données générées avec succès.")
 # Appel pour l'enregistrement en fichier CSV
 
 enregistrer_clients_csv(clients, 'clients.csv')
@@ -107,4 +107,4 @@ print("Fichiers CSV générés avec succès.")
 #print("Clients:", clients)
 #print("Produits:", produits)
 #print("Commandes:", commandes)
-print("Lignes de commande:", lignes_commande)
+#print("Lignes de commande:", lignes_commande)
