@@ -1,5 +1,5 @@
 
-SQL*Loader: Release 11.2.0.1.0 - Production on Tue Apr 1 12:08:01 2025
+SQL*Loader: Release 11.2.0.1.0 - Production on Sat Apr 12 19:01:22 2025
 
 Copyright (c) 1982, 2009, Oracle and/or its affiliates.  All rights reserved.
 
@@ -32,7 +32,7 @@ ORA-01722: invalid number
 
 
 Table PRODUITS:
-  20 Rows successfully loaded.
+  2000 Rows successfully loaded.
   1 Row not loaded due to data errors.
   0 Rows not loaded because all WHEN clauses were failed.
   0 Rows not loaded because all fields were null.
@@ -42,12 +42,12 @@ Space allocated for bind array:                  66048 bytes(64 rows)
 Read   buffer bytes: 1048576
 
 Total logical records skipped:          0
-Total logical records read:            21
+Total logical records read:          2001
 Total logical records rejected:         1
 Total logical records discarded:        0
 
-Run began on Tue Apr 01 12:08:01 2025
-Run ended on Tue Apr 01 12:08:03 2025
+Run began on Sat Apr 12 19:01:22 2025
+Run ended on Sat Apr 12 19:01:28 2025
 
-Elapsed time was:     00:00:01.69
-CPU time was:         00:00:00.33
+Elapsed time was:     00:00:05.70
+CPU time was:         00:00:00.42
